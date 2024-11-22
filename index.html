@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Première section avec effet parallaxe (Image de la Terre) -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Deroullers Denis</h1>
+            <p>Développeur Web & concepteur designer UI</p>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section class="about" id="about">
+        <div class="container">
+            <!-- Colonne gauche : Texte -->
+            <div class="about-text">
+                <h2>À Propos de Moi</h2>
+                <div class="about-item">
+                    <h3><span>👤</span> Qui suis-je ?</h3>
+                    <p>Passionné par le développement web et le design graphique, je crée des expériences numériques
+                        uniques qui allient esthétique et fonctionnalité.</p>
+                </div>
+                <div class="about-item">
+                    <h3><span>📖</span> Expérience</h3>
+                    <p>5 ans d'expérience en tant que développeur full-stack et designer UI/UX, travaillant sur des
+                        projets variés pour des startups et grandes entreprises.</p>
+                </div>
+                <div class="about-item">
+                    <h3><span>🎓</span> Formation</h3>
+                    <p>Master en Développement Web & Design Numérique<br>Certifications en UX Design et Web Development
+                    </p>
+                </div>
+            </div>
+
+            <!-- Colonne droite : Image -->
+            <div class="about-image">
+                <img src="./assets/ordinateur bureaux.jpg" alt="Ordinateur avec design" />
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="skills-section">
+                <!-- Développement -->
+                <div class="skills-category">
+                    <h3>Développement</h3>
+                    <div class="skills-list">
+                        <!-- Première ligne -->
+                        <div class="skill-badge">
+                            <img src="./assets/logo/html.png" alt="HTML Logo" />
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/css.svg" alt="CSS Logo" />
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/javascript.webp" alt="JavaScript Logo" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/react.png" alt="React Logo" />
+                            <span>React</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/php.png" alt="PHP Logo" />
+                            <span>PHP</span>
+                        </div>
+
+                        <!-- Deuxième ligne -->
+                        <div class="skill-badge">
+                            <img src="./assets/logo/symfony.webp" alt="Symfony Logo" />
+                            <span>Symfony</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/dart.png" alt="Dart Logo" />
+                            <span>Dart</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/flutter.png" alt="Flutter Logo" />
+                            <span>Flutter</span>
+                        </div>
+
+                        <div class="skill-badge">
+                            <img src="./assets/logo/python.png" alt="python logo" />
+                            <span>Python</span>
+                        </div>
+
+
+                        <div class="skill-badge">
+                            <img src="./assets/logo/mysql.webp" alt="MySQL Logo" />
+                            <span>MySQL</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="skills-category">
+                    <h3>Design</h3>
+                    <div class="skills-list">
+                        <!-- Première ligne -->
+                        <div class="skill-badge">
+                            <img src="./assets/logo/figma.svg" alt="Figma Logo" />
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/photoshop.png" alt="Photoshop Logo" />
+                            <span>Photoshop</span>
+                        </div>
+
+                        <!-- Deuxième ligne -->
+                        <div class="skill-badge">
+                            <img src="./assets/logo/ilustrator.png" alt="Adobe Illustrator Logo" />
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/after effects.png" alt="After Effects Logo" />
+                            <span>After Effects</span>
+                        </div>
+                        <div class="skill-badge">
+                            <img src="./assets/logo/indesign.avif" alt="in design logo" />
+                            <span>Indesign</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Mes Services</h2>
+            <div class="services-list">
+                <!-- Card Développement Web -->
+                <div class="card" data-modal="web-projects">
+                    <div class="icon">💻</div>
+                    <h3>Développement Web</h3>
+                    <p>Full-stack développeur spécialisé en React et Node.js.</p>
+                </div>
+
+                <!-- Card Design Graphique -->
+                <div class="card" data-modal="design-projects">
+                    <div class="icon">🎨</div>
+                    <h3>Design Graphique</h3>
+                    <p>Designer créatif avec expertise en UI/UX et branding.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale pour Développement Web -->
+        <div class="modal" id="web-projects">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Projets Développement Web</h3>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <img src="./assets/services/landing page.jpg" alt="E-commerce Platform" />
+                        <h4>Landing page Devatopia</h4>
+                        <p>Une landing page pour Devatopia</p>
+                        <div class="tags">
+                            <span>React</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/projects/mobile-app.jpg" alt="Application Mobile" />
+                        <h4>Application Mobile</h4>
+                        <p>Application mobile cross-platform.</p>
+                        <div class="tags">
+                            <span>React Native</span><span>Firebase</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/projects/analytics.jpg" alt="Dashboard Analytics" />
+                        <h4>Dashboard Analytics</h4>
+                        <p>Tableau de bord avec visualisation de données.</p>
+                        <div class="tags">
+                            <span>Vue.js</span><span>D3.js</span><span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modale pour Design Graphique -->
+        <div class="modal" id="design-projects">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Projets Design Graphique</h3>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <img src="./assets/projects/branding.jpg" alt="Branding Startup" />
+                        <h4>Logos et identité visuelle</h4>
+                        <p>Identité visuelle complète pour une startup.</p>
+                        <div class="tags">
+                            <span>Logo</span><span>Branding</span><span>Print</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/projects/uiux.jpg" alt="UI/UX Design" />
+                        <h4>UI/UX Design</h4>
+                        <p>Design d'interface pour application mobile pour une vod sur le théme horreur</p>
+                        <div class="tags">
+                            <span>Figma</span><span>UI/UX</span><span>Prototype</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/services/liste de contact.jpg" alt="Motion Design" />
+                        <h4>UI/UX Design</h4>
+                        <p>Design d'interface pour un bar a jeux (fictif) en version mobile/tablette/pc</p>
+                        <div class="tags">
+                            <span>After Effects</span><span>Animation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <div class="contact-content">
+                <!-- Colonne gauche : Informations de contact -->
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de vos projets ou pour toute question.</p>
+                    <div class="info-item">
+                        <span>📧</span>
+                        <a href="mailto:contact@example.com">contact@example.com</a>
+                    </div>
+                    <div class="info-item">
+                        <span>📞</span>
+                        <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+                    </div>
+                </div>
+
+                <!-- Colonne droite : Formulaire de contact -->
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Votre email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">📤 Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Colonne 1 : Description -->
+                <div class="footer-column">
+                    <h3>Portfolio</h3>
+                    <p>Créons ensemble des expériences web exceptionnelles.</p>
+                </div>
+
+                <!-- Colonne 2 : Logo centré -->
+                <div class="footer-column">
+                    <img src="./assets/logo/figma.svg" alt="Logo du Portfolio" class="footer-logo" />
+                </div>
+
+                <!-- Colonne 3 : Réseaux sociaux -->
+                <div class="footer-column">
+                    <h3>Réseaux sociaux</h3>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" aria-label="GitHub">🐙</a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">🔗</a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ligne de copyright -->
+            <div class="footer-bottom">
+                <p>© 2024 Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
